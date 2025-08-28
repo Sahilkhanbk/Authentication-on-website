@@ -13,7 +13,6 @@ const SideDrawer = ({ isOpen, onClose }) => {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerCloseButton />
-
           <DrawerBody>
             <Sidenav />
           </DrawerBody>
