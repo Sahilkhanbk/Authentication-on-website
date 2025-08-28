@@ -15,7 +15,6 @@ import { ReactQueryDevtools } from 'react-query/devtools';
 import ProtectedRoute from "./components/Auth/ProtectedRoute.jsx";
 import AlreadySignedRoute from "./components/Auth/AlreadySignroute.jsx";
 
-
 function App() {
   const router = createBrowserRouter([
     {
