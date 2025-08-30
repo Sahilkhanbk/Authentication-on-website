@@ -8,6 +8,7 @@ export default function AuthProvider({ children }) {
   const [token, setToken] = useState(null);
   const [cookie, setCookie, removeCookie] = useCookies(["jwt"]);
 
+  
   const login = (tokenStr) => {
     if (tokenStr) {
       setToken(tokenStr);
@@ -53,4 +54,5 @@ export default function AuthProvider({ children }) {
       {children}
     </AuthContext.Provider>
   );
+
 }
