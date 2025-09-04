@@ -4,8 +4,6 @@ import {
   DrawerOverlay,
   DrawerContent,
   DrawerCloseButton,
-
-  
 } from "@chakra-ui/react";
 import Sidenav from "./Sidenav";
 const SideDrawer = ({ isOpen, onClose }) => {
