@@ -4,7 +4,6 @@ import Example from "../model/Example";
 
 
 
-
 export const getExample: RequestHandler = (req, res, next) => {
   res.json({ message: "hello" });
 };
