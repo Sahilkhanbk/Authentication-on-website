@@ -8,7 +8,6 @@ export const getExample: RequestHandler = (req, res, next) => {
 export const getExampleData: RequestHandler = async (req, res, next) => {
   const { name, id }: IExampleData = req.body;
 
-
   try {
     const example = await Example.findOne({ name });
 
